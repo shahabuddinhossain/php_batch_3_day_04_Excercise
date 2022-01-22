@@ -1,0 +1,131 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: #F6F6F6;
+}
+
+.container{
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+    /*border: 1px solid black;*/
+}
+
+.row:after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+.col-1{width: 8.33%; float: left}
+.col-2{width: 16.66%; float: left}
+.col-3{width: 25%; float: left}
+.col-4{width: 33.33%; float: left}
+.col-5{width: 41.66%; float: left}
+.col-6{width: 50%; float: left}
+.col-7{width: 58.33%; float: left}
+.col-8{width: 66.66%; float: left}
+.col-9{width: 75%; float: left}
+.col-10{width: 83.33%; float: left}
+.col-11{width: 91.66%; float: left}
+.col-12{width: 100%; float: left}
+
+[class*="col-"] {
+    float: left;
+    border: 1px solid gray;
+}
+
+
+.h-30{ height: 30px}
+.h-40{ height: 40px}
+.h-50{ height: 50px}
+.h-80{ height: 80px}
+.h-100{ height: 100px}
+.h-150{ height: 150px}
+.h-200{ height: 200px}
+.h-250{ height: 250px}
+.h-300{ height: 300px}
+.h-350{ height: 350px}
+.h-400{ height: 400px}
+.h-450{ height: 450px}
+.h-500{ height: 500px}
+.h-550{ height: 550px}
+.h-600{ height: 600px}
+
+.p-relative {position: relative;}
+.p-absolute {position: absolute;}
+.p-fixed    {position: fixed}
+.p-right      {right: 0px;}
+
+
+.text-right {text-align: right;}
+.text-left {text-align: left}
+.text-center {text-align: center;}
+
+
+
+@media screen and (min-width: 990) {
+    .col-l1{width: 8.33%; float: left}
+    .col-l2{width: 16.66%; float: left}
+    .col-l3{width: 25%; float: left}
+    .col-l4{width: 33.33%; float: left}
+    .col-l5{width: 41.66%; float: left}
+    .col-l6{width: 50%; float: left}
+    .col-l7{width: 58.33%; float: left}
+    .col-l8{width: 66.66%; float: left}
+    .col-l9{width: 75%; float: left}
+    .col-l10{width: 83.33%; float: left}
+    .col-l11{width: 91.66%; float: left}
+    .col-l12{width: 100%; float: left}
+
+    ld-none{ display: none }
+}
+
+.bg-red {background-color: red;}
+
+/*Top Bar Section*/
+.top-bar{
+    background-color: #E2E2E2;
+}
+
+
+/*nav-bar Section*/
+
+.nav-bar{
+    background-color: #EFEFEF;
+}
+
+/*Banner Section*/
+
+.bg-img{
+    background: url("../img/banner01.jpg") repeat-x center;
+}
+
+.banner-title{
+    padding: 30px 0px;
+}
+
+.banner-search{
+    border: 1px solid black;
+    background-color: rgba(239, 239, 239);
+    margin: 0px auto;
+    border-radius: 15px;
+}
+
+
+/*courses Section*/
+
+.crs-img{
+    background: url("../img/courses.jpg") repeat-x top;
+    display: block;
+}
+
+
+/*Bank Section*/
+.bank-logo{
+    background: url("../img/banks.png") repeat-x center;
+}
